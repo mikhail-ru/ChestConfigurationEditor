@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c07a7477c8624990a7549b8f8164952, type: 3}
+  m_Name: IncorrectConfiguration
+  m_EditorClassIdentifier: 
+  _rewards:
+  - randomWeight: 0.162
+    type: 0
+    softMin: -1
+    softMax: 141
+    hardMin: 0
+    hardMax: -1
+    chest: {fileID: 11400000}
+    chestCount: -1
+  - randomWeight: 0.23
+    type: 0
+    softMin: 75
+    softMax: 54
+    hardMin: -1
+    hardMax: 24
+    chest: {fileID: 0}
+    chestCount: 0
+  - randomWeight: 0.314
+    type: 1
+    softMin: 2141
+    softMax: 1
+    hardMin: 123.513
+    hardMax: -15.515
+    chest: {fileID: 0}
+    chestCount: 0
+  - randomWeight: 0.129
+    type: 0
+    softMin: -51
+    softMax: -73
+    hardMin: -1
+    hardMax: 24
+    chest: {fileID: 0}
+    chestCount: 0
+  - randomWeight: 0.129
+    type: 2
+    softMin: 41
+    softMax: 123
+    hardMin: -1
+    hardMax: 24
+    chest: {fileID: 11400000}
+    chestCount: -1
+  - randomWeight: 0.135
+    type: 2
+    softMin: 41
+    softMax: 123
+    hardMin: -1
+    hardMax: 24
+    chest: {fileID: 0}
+    chestCount: 534
+  - randomWeight: 0.129
+    type: 2
+    softMin: 41
+    softMax: 123
+    hardMin: -1
+    hardMax: 24
+    chest: {fileID: 0}
+    chestCount: -1
