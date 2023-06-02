@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox name="Container" style="height: 165px; background-color: rgba(0, 0, 0, 0);">
+        <ui:Slider picking-mode="Ignore" label="Random weight" value="0.5" high-value="1" binding-path="randomWeight" show-input-field="true" tooltip="The chance of being spawned" name="RandomSlider" />
+        <ui:GroupBox name="RewardTypeDropDownContainer" style="flex-direction: row; justify-content: flex-start;">
+            <ui:Label text="Reward type" display-tooltip-when-elided="true" />
+            <ui:VisualElement name="RewardTypeContainer" style="width: 100%;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="itemContainer" style="height: 75px;" />
+    </ui:GroupBox>
+</ui:UXML>
