@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:GroupBox name="Container" style="height: 75px; justify-content: center;">
+        <ui:VisualElement name="MinFieldContainer" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px; margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px; background-color: rgba(255, 255, 255, 0.3); flex-direction: row;">
+            <ui:Label text="Min Value:" display-tooltip-when-elided="true" name="Name" style="-unity-text-align: upper-center;" />
+            <ui:VisualElement name="MinValueContainer" style="width: 100%; height: 100%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MaxFieldContainer" style="margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px; padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px; background-color: rgba(255, 255, 255, 0.3); flex-direction: row;">
+            <ui:Label text="Max Value:" display-tooltip-when-elided="true" name="Name" />
+            <ui:VisualElement name="MaxValueContainer" style="width: 100%; height: 100%;" />
+        </ui:VisualElement>
+        <ui:Label text="Info Text" name="InfoText" style="-unity-font-style: bold; font-size: 14px;" />
+    </ui:GroupBox>
+</ui:UXML>
